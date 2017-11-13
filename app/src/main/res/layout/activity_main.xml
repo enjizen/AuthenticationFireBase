@@ -10,11 +10,18 @@
         android:id="@+id/btn_authen_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:text="Authen Email"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/btn_authen_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_authen_email"
+        android:text="Authen Facebook"
+        android:layout_centerHorizontal="true"
+        />
 
 </RelativeLayout>
